@@ -22,11 +22,11 @@ store.dispatch('TASKS:ADD', 'removed');
 store.dispatch('TASKS:REMOVE', 2);
 store.dispatch('TASKS:ADD', 'Test store');
 
-// state changed {tasks: []} TASKS:ADD Get started
-// state changed {tasks: Array(2)} TASKS:ADD Create store
-// state changed {tasks: Array(3)} TASKS:ADD removed
-// state changed {tasks: Array(2)} TASKS:REMOVE 2
-// state changed {tasks: Array(3)} TASKS:ADD Test store
+// state changed {tasks: ['Get started']} TASKS:ADD Get started
+// state changed {tasks: ['Get started', 'Create store']} TASKS:ADD Create store
+// state changed {tasks: ['Get started', 'Create store', 'removed']} TASKS:ADD removed
+// state changed {tasks: ['Get started', 'Create store']} TASKS:REMOVE 2
+// state changed {tasks: ['Get started', 'Create store', 'Test store']} TASKS:ADD Test store
 ```
 
 ## reducers.js
