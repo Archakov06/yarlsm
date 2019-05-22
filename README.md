@@ -1,4 +1,4 @@
-**YarslmJS** — Yet another redux like state manager.
+**Yarlsm** — Yet another redux like state manager.
 
 Not for production. Made for fun and practice.
 
