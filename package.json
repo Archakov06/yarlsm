@@ -1,0 +1,17 @@
+{
+  "name": "redux-like-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.1",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server"
+  }
+}
