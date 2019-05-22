@@ -1,4 +1,4 @@
-**yastm** — Yet another state manager (redux like)
+**YarslmJS** — Yet another redux like state manager.
 
 Not for production. Made for fun and practice.
 
