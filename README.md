@@ -2,6 +2,8 @@
 
 Not for production. Made for fun and practice.
 
+[![Edit xenodochial-satoshi-l190y](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/xenodochial-satoshi-l190y?fontsize=14)
+
 ## index.js
 
 ```js
