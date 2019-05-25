@@ -22,8 +22,15 @@ class Store {
     }
   }
 
-  public listen(fn: Function, type?: String) {
+  public subscribe(fn: Function, type?: String) {
     this.listeners.push({ actionType: type || '@listener', fn });
+
+    let subscribed = true;
+
+    return function unsubscribe() {
+      subscribed = false;
+      this.listeners = this.listeners.filter(({ fn: listener }) => listener !== fn);
+    };
   }
 
   private reduce(type: String, payload: any) {
