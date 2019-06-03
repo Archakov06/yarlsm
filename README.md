@@ -18,6 +18,10 @@ store.listen(({ type, data, state }) => {
   console.log('state changed', state, type, data);
 });
 
+store.listen(({ type, data, state }) => {
+  console.log('Task deleted', 'TASKS:REMOVE');
+});
+
 store.dispatch('TASKS:ADD', 'Get started');
 store.dispatch('TASKS:ADD', 'Create store');
 store.dispatch('TASKS:ADD', 'removed');
